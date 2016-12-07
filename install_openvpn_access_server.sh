@@ -1,5 +1,5 @@
 #!/bin/bash
-userPassword=Ciena$!!1216
+userPassword=$1
 
 #get the VM's public ip
 curl ifconfig.me > /tmp/ip.txt 2> /dev/null
